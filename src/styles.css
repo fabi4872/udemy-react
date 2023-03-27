@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    align-items: center;
+    background-color: rgb(15, 15, 49);
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    height: 100vh;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    border-radius: 0.3rem;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    width: 20rem;
+}
+
+.form{
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.error-message{
+    align-self: flex-start;
+    color: rgb(255, 85, 85);
+    font-size: 0.8rem;
+}
+
+.message-height{
+    height: 0.2rem;
+}
